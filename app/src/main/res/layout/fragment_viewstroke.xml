@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jwg.grunert.ajgsensor.ViewStrokeFragment">
+    <!-- android:orientation="vertical" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textViewStrokeFile"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/buttonStrokeFile" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select File"
+        android:id="@+id/buttonStrokeFile"
+        android:layout_toEndOf="@+id/buttonFitStroke"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fit"
+        android:id="@+id/buttonFitStroke" />
+
+    <com.jjoe64.graphview.GraphView
+        android:layout_below="@+id/buttonStrokeFile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/graph" />
+</RelativeLayout>

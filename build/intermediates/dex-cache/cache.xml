@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/com.android.support-design-23.1.1_ac415ed1949a0fcb69827c416c723872578241bc.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/internal_impl-23.1.1_2a12c595244a5a5669eb3a8b8158154692905ec6.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.1.1_0ae51acb4facd0a03130223a17bb1a0a702ed118.jar" />
+    </item>
+    <item
+        jar="/opt/android/Sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_020f02f2951061d76adbfa5417b06fc2d5e40aec.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.1.1_ff5f37e6da6a2560fa335e565ee4252cda11f867.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/percent/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="1badcc3d0af60cfcab190ea7b78d060e824cfb1e">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/com.android.support-percent-23.1.1_19eacd12704f2b8d5ba37d4e285263d0f77f0231.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/src/GraphView-4.2.2.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="2d118ba8a0043050120fd9cd004bf351be588630">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/GraphView-4.2.2_7ddf00feca2aaa3e9f75a376b700dbe5281e3b1d.jar" />
+    </item>
+    <item
+        jar="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/grunertj/StudioProjects/AJGSensor/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.1.1_755d028b1469e72801d2c8e72ec550c26ce95aa7.jar" />
+    </item>
+
+</items>

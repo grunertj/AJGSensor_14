@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    tools:context="com.jwg.grunert.ajgsensor.MainFragment">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start"
+        android:id="@+id/buttonStart"
+        android:background="@android:color/holo_green_light"
+        android:textStyle="bold"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:layout_marginBottom='@dimen/activity_vertical_margin'
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@+id/textViewGPSFile"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop"
+        android:id="@+id/buttonStop"
+        android:background="@android:color/holo_red_light"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="@dimen/activity_vertical_margin"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_below="@+id/buttonStart"
+        android:layout_centerHorizontal="true" />
+
+    <!-- <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/buttonShare"
+        android:background="@android:color/holo_blue_bright"
+        android:textStyle="bold"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_below="@+id/buttonStop"
+        android:layout_alignLeft="@+id/buttonStop"
+        android:layout_alignStart="@+id/buttonStop"
+        android:layout_marginTop="85dp" /> -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewRunning"
+        android:layout_marginBottom="42dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Messages" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textViewFile"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:text="Sensor file name"
+        android:layout_below="@+id/textViewLatitude"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dim screen"
+        android:id="@+id/buttonDim"
+        android:layout_below="@+id/buttonStop"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLocation"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="Location Provider" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLatitude"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Latitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textViewLongitude"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:text="Longitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/textViewGPSFile"
+        android:text="GPS file name (if GPS is enabled)"
+        android:layout_below="@+id/textViewFile"
+        android:layout_marginTop="@dimen/activity_vertical_margin"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Distance"
+        android:id="@+id/textViewDistance"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:layout_below="@+id/buttonDim"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Average Speed"
+        android:id="@+id/textViewAverageSpeed"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:layout_below="@+id/textViewDistance"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Maximum Speed"
+        android:id="@+id/textViewMaxSpeed"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:layout_below="@+id/textViewAverageSpeed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Speed"
+        android:id="@+id/textViewCurrentSpeed"
+        android:layout_marginTop='@dimen/activity_vertical_margin'
+        android:layout_below="@+id/textViewMaxSpeed"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Logging"
+        android:id="@+id/textViewStartLogging"
+        android:layout_alignTop="@+id/textViewDistance"
+        android:layout_alignEnd="@+id/textViewLongitude" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="trackpoints:"
+        android:id="@+id/textViewTrackPoints"
+        android:layout_above="@+id/textViewMaxSpeed"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sensorvalues:"
+        android:id="@+id/textViewSensorValues"
+        android:layout_alignTop="@+id/textViewCurrentSpeed"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="valid trackpoints:"
+        android:id="@+id/textViewAllTrackPoints"
+        android:layout_alignTop="@+id/textViewMaxSpeed"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

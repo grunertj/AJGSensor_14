@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.jwg.grunert.ajgsensor.ViewPaceFragment">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/textViewPaceFile"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/buttonSharePace" />
+
+        <com.jjoe64.graphview.GraphView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttonPaceFile"
+            android:id="@+id/graphPace" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select File"
+        android:id="@+id/buttonPaceFile"
+        android:layout_toEndOf="@+id/buttonFitPace"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fit"
+        android:id="@+id/buttonFitPace" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/buttonSharePace"
+        android:layout_toEndOf="@+id/buttonPaceFile"/>
+</RelativeLayout>

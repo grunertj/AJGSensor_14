@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AJGSensor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_settings_fragment">Hello settings fragment</string>
+    <string name="hello_debug_fragment">Hello debug fragment</string>
+</resources>
